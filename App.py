@@ -117,6 +117,6 @@ except:
     print('A ocurrido un error')
 if c1.pais != 'españa':#si el cliente no es español paga un bonus por transporte internacinal
     total=total*1.21
-print(f'Un sms a sido enviado a {telefono}')#si pusiera c1.tlf diria True en vez del telefono por eso se usa el global
 print(f'Factura\n{c1.nombrec}----{c1.dni}\n{c1.pais}---{c1.ciudad}---{c1.direccion}\n{carrito}\n{precio}\n{date.today()}----{total}€')
 #Dejo el date.today sin formatear por que lo veo innecesario
+print(f'Un sms conteniendo factura.pdf a sido enviado a {telefono}')#si pusiera c1.tlf diria True en vez del telefono por eso se usa el global
