@@ -8,7 +8,7 @@ telefono = None #variable global para llamar a telefono más tarde
 def contraseñaValida():
     vale = False
     contrasena = 0
-    while not vale: #si no hay contraseña te la pide
+    while not vale: #te pide la contraseña hasta que sea valida
         contrasena1 = False
         contrasena = input('Escribe una contraseña: ')
 
